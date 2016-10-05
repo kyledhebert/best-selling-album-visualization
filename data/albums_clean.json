@@ -1,0 +1,686 @@
+[
+  {
+    "album": "Thriller",
+    "album_link": "https://en.wikipedia.org/wiki/Thriller_(Michael_Jackson_album)",
+    "artist": "Michael Jackson",
+    "artist_link": "https://en.wikipedia.org/wiki/Michael_Jackson",
+    "genre": "Pop",
+    "sales": 46.0,
+    "year": "1982-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Back in Black",
+    "album_link": "https://en.wikipedia.org/wiki/Back_in_Black",
+    "artist": "AC/DC",
+    "artist_link": "https://en.wikipedia.org/wiki/AC/DC",
+    "genre": "Hard rock",
+    "sales": 26.1,
+    "year": "1980-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "The Dark Side of the Moon",
+    "album_link": "https://en.wikipedia.org/wiki/The_Dark_Side_of_the_Moon",
+    "artist": "Pink Floyd",
+    "artist_link": "https://en.wikipedia.org/wiki/Pink_Floyd",
+    "genre": "Progressive rock",
+    "sales": 24.2,
+    "year": "1973-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "The Bodyguard",
+    "album_link": "https://en.wikipedia.org/wiki/The_Bodyguard:_Original_Soundtrack_Album",
+    "artist": "Whitney Houston",
+    "artist_link": "https://en.wikipedia.org/wiki/Whitney_Houston",
+    "genre": "soul",
+    "sales": 27.4,
+    "year": "1992-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Bat Out of Hell",
+    "album_link": "https://en.wikipedia.org/wiki/Bat_Out_of_Hell",
+    "artist": "Meat Loaf",
+    "artist_link": "https://en.wikipedia.org/wiki/Meat_Loaf",
+    "genre": "Hard rock",
+    "sales": 20.6,
+    "year": "1977-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Their Greatest Hits (1971–1975)",
+    "album_link": "https://en.wikipedia.org/wiki/Their_Greatest_Hits_(1971%E2%80%931975)",
+    "artist": "Eagles",
+    "artist_link": "https://en.wikipedia.org/wiki/Eagles_(band)",
+    "genre": "Rock",
+    "sales": 32.2,
+    "year": "1976-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Saturday Night Fever",
+    "album_link": "https://en.wikipedia.org/wiki/Saturday_Night_Fever_(soundtrack)",
+    "artist": "Bee Gees",
+    "artist_link": "https://en.wikipedia.org/wiki/Bee_Gees",
+    "genre": "Disco",
+    "sales": 20.6,
+    "year": "1977-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Rumours",
+    "album_link": "https://en.wikipedia.org/wiki/Rumours_(album)",
+    "artist": "Fleetwood Mac",
+    "artist_link": "https://en.wikipedia.org/wiki/Fleetwood_Mac",
+    "genre": "Soft rock",
+    "sales": 27.9,
+    "year": "1977-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Come On Over",
+    "album_link": "https://en.wikipedia.org/wiki/Come_On_Over_(Shania_Twain_album)",
+    "artist": "Shania Twain",
+    "artist_link": "https://en.wikipedia.org/wiki/Shania_Twain",
+    "genre": "Country",
+    "sales": 29.6,
+    "year": "1997-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Led Zeppelin IV",
+    "album_link": "https://en.wikipedia.org/wiki/Led_Zeppelin_IV",
+    "artist": "Led Zeppelin",
+    "artist_link": "https://en.wikipedia.org/wiki/Led_Zeppelin",
+    "genre": "Hard rock",
+    "sales": 29.0,
+    "year": "1971-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Bad",
+    "album_link": "https://en.wikipedia.org/wiki/Bad_(album)",
+    "artist": "Michael Jackson",
+    "artist_link": "https://en.wikipedia.org/wiki/Michael_Jackson",
+    "genre": "Pop",
+    "sales": 20.3,
+    "year": "1987-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Jagged Little Pill",
+    "album_link": "https://en.wikipedia.org/wiki/Jagged_Little_Pill",
+    "artist": "Alanis Morissette",
+    "artist_link": "https://en.wikipedia.org/wiki/Alanis_Morissette",
+    "genre": "Alternative rock",
+    "sales": 24.8,
+    "year": "1995-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Falling into You",
+    "album_link": "https://en.wikipedia.org/wiki/Falling_into_You",
+    "artist": "Celine Dion",
+    "artist_link": "https://en.wikipedia.org/wiki/Celine_Dion",
+    "genre": "Pop",
+    "sales": 20.2,
+    "year": "1996-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Sgt. Pepper's Lonely Hearts Club Band",
+    "album_link": "https://en.wikipedia.org/wiki/Sgt._Pepper%27s_Lonely_Hearts_Club_Band",
+    "artist": "The Beatles",
+    "artist_link": "https://en.wikipedia.org/wiki/The_Beatles",
+    "genre": "Rock",
+    "sales": 13.1,
+    "year": "1967-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Hotel California",
+    "album_link": "https://en.wikipedia.org/wiki/Hotel_California_(Eagles_album)",
+    "artist": "Eagles",
+    "artist_link": "https://en.wikipedia.org/wiki/Eagles_(band)",
+    "genre": "Rock",
+    "sales": 21.5,
+    "year": "1976-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Music Box",
+    "album_link": "https://en.wikipedia.org/wiki/Music_Box_(Mariah_Carey_album)",
+    "artist": "Mariah Carey",
+    "artist_link": "https://en.wikipedia.org/wiki/Mariah_Carey",
+    "genre": "Pop",
+    "sales": 19.0,
+    "year": "1993-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Dangerous",
+    "album_link": "https://en.wikipedia.org/wiki/Dangerous_(Michael_Jackson_album)",
+    "artist": "Michael Jackson",
+    "artist_link": "https://en.wikipedia.org/wiki/Michael_Jackson",
+    "genre": "Rock",
+    "sales": 17.6,
+    "year": "1991-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Dirty Dancing",
+    "album_link": "https://en.wikipedia.org/wiki/Dirty_Dancing_(soundtrack)",
+    "artist": "Various artists",
+    "artist_link": "",
+    "genre": "Pop",
+    "sales": 17.9,
+    "year": "1987-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Let's Talk About Love",
+    "album_link": "https://en.wikipedia.org/wiki/Let%27s_Talk_About_Love",
+    "artist": "Celine Dion",
+    "artist_link": "https://en.wikipedia.org/wiki/Celine_Dion",
+    "genre": "Pop",
+    "sales": 19.3,
+    "year": "1997-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "1",
+    "album_link": "https://en.wikipedia.org/wiki/1_(The_Beatles_album)",
+    "artist": "The Beatles",
+    "artist_link": "https://en.wikipedia.org/wiki/The_Beatles",
+    "genre": "Rock",
+    "sales": 21.6,
+    "year": "2000-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "21",
+    "album_link": "https://en.wikipedia.org/wiki/21_(Adele_album)",
+    "artist": "Adele",
+    "artist_link": "https://en.wikipedia.org/wiki/Adele",
+    "genre": "Pop",
+    "sales": 22.3,
+    "year": "2011-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Abbey Road",
+    "album_link": "https://en.wikipedia.org/wiki/Abbey_Road",
+    "artist": "The Beatles",
+    "artist_link": "https://en.wikipedia.org/wiki/The_Beatles",
+    "genre": "Rock",
+    "sales": 14.4,
+    "year": "1969-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Born in the U.S.A.",
+    "album_link": "https://en.wikipedia.org/wiki/Born_in_the_U.S.A.",
+    "artist": "Bruce Springsteen",
+    "artist_link": "https://en.wikipedia.org/wiki/Bruce_Springsteen",
+    "genre": "Rock",
+    "sales": 19.6,
+    "year": "1984-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Brothers in Arms",
+    "album_link": "https://en.wikipedia.org/wiki/Brothers_in_Arms_(Dire_Straits_album)",
+    "artist": "Dire Straits",
+    "artist_link": "https://en.wikipedia.org/wiki/Dire_Straits",
+    "genre": "Rock",
+    "sales": 17.7,
+    "year": "1985-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Titanic: Music from the Motion Picture",
+    "album_link": "https://en.wikipedia.org/wiki/Titanic:_Music_from_the_Motion_Picture",
+    "artist": "James Horner",
+    "artist_link": "https://en.wikipedia.org/wiki/James_Horner",
+    "genre": "Soundtrack",
+    "sales": 18.1,
+    "year": "1997-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "The Immaculate Collection",
+    "album_link": "https://en.wikipedia.org/wiki/The_Immaculate_Collection",
+    "artist": "Madonna",
+    "artist_link": "https://en.wikipedia.org/wiki/Madonna_(entertainer)",
+    "genre": "Pop",
+    "sales": 19.4,
+    "year": "1990-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Metallica",
+    "album_link": "https://en.wikipedia.org/wiki/Metallica_(album)",
+    "artist": "Metallica",
+    "artist_link": "https://en.wikipedia.org/wiki/Metallica",
+    "genre": "Thrash metal",
+    "sales": 19.9,
+    "year": "1991-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Nevermind",
+    "album_link": "https://en.wikipedia.org/wiki/Nevermind",
+    "artist": "Nirvana",
+    "artist_link": "https://en.wikipedia.org/wiki/Nirvana_(band)",
+    "genre": "Grunge",
+    "sales": 16.7,
+    "year": "1991-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "The Wall",
+    "album_link": "https://en.wikipedia.org/wiki/The_Wall",
+    "artist": "Pink Floyd",
+    "artist_link": "https://en.wikipedia.org/wiki/Pink_Floyd",
+    "genre": "Progressive rock",
+    "sales": 17.6,
+    "year": "1979-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Supernatural",
+    "album_link": "https://en.wikipedia.org/wiki/Supernatural_(Santana_album)",
+    "artist": "Santana",
+    "artist_link": "https://en.wikipedia.org/wiki/Santana_(band)",
+    "genre": "Rock",
+    "sales": 20.5,
+    "year": "1999-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Appetite for Destruction",
+    "album_link": "https://en.wikipedia.org/wiki/Appetite_for_Destruction",
+    "artist": "Guns N' Roses",
+    "artist_link": "https://en.wikipedia.org/wiki/Guns_N%27_Roses",
+    "genre": "Heavy metal",
+    "sales": 21.3,
+    "year": "1987-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Gold: Greatest Hits",
+    "album_link": "https://en.wikipedia.org/wiki/Gold:_Greatest_Hits_(ABBA_album)",
+    "artist": "ABBA",
+    "artist_link": "https://en.wikipedia.org/wiki/ABBA",
+    "genre": "Pop",
+    "sales": 29.0,
+    "year": "1992-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Slippery When Wet",
+    "album_link": "https://en.wikipedia.org/wiki/Slippery_When_Wet",
+    "artist": "Bon Jovi",
+    "artist_link": "https://en.wikipedia.org/wiki/Bon_Jovi",
+    "genre": "Hard rock",
+    "sales": 28.0,
+    "year": "1986-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Spice",
+    "album_link": "https://en.wikipedia.org/wiki/Spice_(album)",
+    "artist": "Spice Girls",
+    "artist_link": "https://en.wikipedia.org/wiki/Spice_Girls",
+    "genre": "Pop",
+    "sales": 28.0,
+    "year": "1996-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Grease: The Original Soundtrack from the Motion Picture",
+    "album_link": "https://en.wikipedia.org/wiki/Grease:_The_Original_Soundtrack_from_the_Motion_Picture",
+    "artist": "Various artists",
+    "artist_link": "",
+    "genre": "Soundtrack",
+    "sales": 28.0,
+    "year": "1978-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "...Baby One More Time",
+    "album_link": "https://en.wikipedia.org/wiki/...Baby_One_More_Time_(album)",
+    "artist": "Britney Spears",
+    "artist_link": "https://en.wikipedia.org/wiki/Britney_Spears",
+    "genre": "Pop",
+    "sales": 28.0,
+    "year": "1999-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Hybrid Theory",
+    "album_link": "https://en.wikipedia.org/wiki/Hybrid_Theory",
+    "artist": "Linkin Park",
+    "artist_link": "https://en.wikipedia.org/wiki/Linkin_Park",
+    "genre": "Nu metal",
+    "sales": 27.0,
+    "year": "2000-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Legend: The Best of Bob Marley & The Wailers",
+    "album_link": "https://en.wikipedia.org/wiki/Legend_(Bob_Marley_%26_The_Wailers_album)",
+    "artist": "Bob Marley",
+    "artist_link": "https://en.wikipedia.org/wiki/Bob_Marley",
+    "genre": "Reggae",
+    "sales": 25.0,
+    "year": "1984-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Tapestry",
+    "album_link": "https://en.wikipedia.org/wiki/Tapestry_(Carole_King_album)",
+    "artist": "Carole King",
+    "artist_link": "https://en.wikipedia.org/wiki/Carole_King",
+    "genre": "Pop",
+    "sales": 25.0,
+    "year": "1971-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Like a Virgin",
+    "album_link": "https://en.wikipedia.org/wiki/Like_a_Virgin_(album)",
+    "artist": "Madonna",
+    "artist_link": "https://en.wikipedia.org/wiki/Madonna_(entertainer)",
+    "genre": "Pop",
+    "sales": 25.0,
+    "year": "1984-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "True Blue",
+    "album_link": "https://en.wikipedia.org/wiki/True_Blue_(Madonna_album)",
+    "artist": "Madonna",
+    "artist_link": "https://en.wikipedia.org/wiki/Madonna_(entertainer)",
+    "genre": "Pop",
+    "sales": 25.0,
+    "year": "1986-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Daydream",
+    "album_link": "https://en.wikipedia.org/wiki/Daydream_(Mariah_Carey_album)",
+    "artist": "Mariah Carey",
+    "artist_link": "https://en.wikipedia.org/wiki/Mariah_Carey",
+    "genre": "Pop",
+    "sales": 25.0,
+    "year": "1995-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Come Away with Me",
+    "album_link": "https://en.wikipedia.org/wiki/Come_Away_with_Me",
+    "artist": "Norah Jones",
+    "artist_link": "https://en.wikipedia.org/wiki/Norah_Jones",
+    "genre": "Jazz",
+    "sales": 25.0,
+    "year": "2002-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "No Jacket Required",
+    "album_link": "https://en.wikipedia.org/wiki/No_Jacket_Required",
+    "artist": "Phil Collins",
+    "artist_link": "https://en.wikipedia.org/wiki/Phil_Collins",
+    "genre": "Pop",
+    "sales": 25.0,
+    "year": "1985-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Greatest Hits",
+    "album_link": "https://en.wikipedia.org/wiki/Greatest_Hits_(Queen_album)",
+    "artist": "Queen",
+    "artist_link": "https://en.wikipedia.org/wiki/Queen_(band)",
+    "genre": "Rock",
+    "sales": 25.0,
+    "year": "1981-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Bridge over Troubled Water",
+    "album_link": "https://en.wikipedia.org/wiki/Bridge_over_Troubled_Water",
+    "artist": "Simon & Garfunkel",
+    "artist_link": "https://en.wikipedia.org/wiki/Simon_%26_Garfunkel",
+    "genre": "Folk rock",
+    "sales": 25.0,
+    "year": "1970-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "The Joshua Tree",
+    "album_link": "https://en.wikipedia.org/wiki/The_Joshua_Tree",
+    "artist": "U2",
+    "artist_link": "https://en.wikipedia.org/wiki/U2",
+    "genre": "Rock",
+    "sales": 25.0,
+    "year": "1987-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Whitney Houston",
+    "album_link": "https://en.wikipedia.org/wiki/Whitney_Houston_(album)",
+    "artist": "Whitney Houston",
+    "artist_link": "https://en.wikipedia.org/wiki/Whitney_Houston",
+    "genre": "Pop",
+    "sales": 25.0,
+    "year": "1985-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Backstreet's Back",
+    "album_link": "https://en.wikipedia.org/wiki/Backstreet%27s_Back",
+    "artist": "Backstreet Boys",
+    "artist_link": "https://en.wikipedia.org/wiki/Backstreet_Boys",
+    "genre": "Pop",
+    "sales": 24.0,
+    "year": "1997-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Millennium",
+    "album_link": "https://en.wikipedia.org/wiki/Millennium_(Backstreet_Boys_album)",
+    "artist": "Backstreet Boys",
+    "artist_link": "https://en.wikipedia.org/wiki/Backstreet_Boys",
+    "genre": "Pop",
+    "sales": 24.0,
+    "year": "1999-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Happy Nation",
+    "album_link": "https://en.wikipedia.org/wiki/Happy_Nation",
+    "artist": "Ace of Base",
+    "artist_link": "https://en.wikipedia.org/wiki/Ace_of_Base",
+    "genre": "Pop",
+    "sales": 23.0,
+    "year": "1993-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "CrazySexyCool",
+    "album_link": "https://en.wikipedia.org/wiki/CrazySexyCool",
+    "artist": "TLC",
+    "artist_link": "https://en.wikipedia.org/wiki/TLC_(group)",
+    "genre": "R&B",
+    "sales": 23.0,
+    "year": "1994-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "She's So Unusual",
+    "album_link": "https://en.wikipedia.org/wiki/She%27s_So_Unusual",
+    "artist": "Cyndi Lauper",
+    "artist_link": "https://en.wikipedia.org/wiki/Cyndi_Lauper",
+    "genre": "New wave",
+    "sales": 22.0,
+    "year": "1983-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "(What's the Story) Morning Glory?",
+    "album_link": "https://en.wikipedia.org/wiki/(What%27s_the_Story)_Morning_Glory%3F",
+    "artist": "Oasis",
+    "artist_link": "https://en.wikipedia.org/wiki/Oasis_(band)",
+    "genre": "Britpop",
+    "sales": 22.0,
+    "year": "1995-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Cross Road",
+    "album_link": "https://en.wikipedia.org/wiki/Cross_Road_(album)",
+    "artist": "Bon Jovi",
+    "artist_link": "https://en.wikipedia.org/wiki/Bon_Jovi",
+    "genre": "Hard rock",
+    "sales": 21.0,
+    "year": "1994-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "The Marshall Mathers LP",
+    "album_link": "https://en.wikipedia.org/wiki/The_Marshall_Mathers_LP",
+    "artist": "Eminem",
+    "artist_link": "https://en.wikipedia.org/wiki/Eminem",
+    "genre": "Rap",
+    "sales": 21.0,
+    "year": "2000-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "25",
+    "album_link": "https://en.wikipedia.org/wiki/25_(Adele_album)",
+    "artist": "Adele",
+    "artist_link": "https://en.wikipedia.org/wiki/Adele",
+    "genre": "Soul",
+    "sales": 20.0,
+    "year": "2015-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Boston",
+    "album_link": "https://en.wikipedia.org/wiki/Boston_(album)",
+    "artist": "Boston",
+    "artist_link": "https://en.wikipedia.org/wiki/Boston_(band)",
+    "genre": "Hard rock",
+    "sales": 20.0,
+    "year": "1976-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Oops!... I Did It Again",
+    "album_link": "https://en.wikipedia.org/wiki/Oops!..._I_Did_It_Again_(album)",
+    "artist": "Britney Spears",
+    "artist_link": "https://en.wikipedia.org/wiki/Britney_Spears",
+    "genre": "Pop",
+    "sales": 20.0,
+    "year": "2000-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Unplugged",
+    "album_link": "https://en.wikipedia.org/wiki/Unplugged_(Eric_Clapton_album)",
+    "artist": "Eric Clapton",
+    "artist_link": "https://en.wikipedia.org/wiki/Eric_Clapton",
+    "genre": "Acoustic blues",
+    "sales": 20.0,
+    "year": "1992-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Hysteria",
+    "album_link": "https://en.wikipedia.org/wiki/Hysteria_(Def_Leppard_album)",
+    "artist": "Def Leppard",
+    "artist_link": "https://en.wikipedia.org/wiki/Def_Leppard",
+    "genre": "Pop",
+    "sales": 20.0,
+    "year": "1987-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Faith",
+    "album_link": "https://en.wikipedia.org/wiki/Faith_(George_Michael_album)",
+    "artist": "George Michael",
+    "artist_link": "https://en.wikipedia.org/wiki/George_Michael",
+    "genre": "R&B",
+    "sales": 20.0,
+    "year": "1987-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Dookie",
+    "album_link": "https://en.wikipedia.org/wiki/Dookie",
+    "artist": "Green Day",
+    "artist_link": "https://en.wikipedia.org/wiki/Green_Day",
+    "genre": "Pop punk",
+    "sales": 20.0,
+    "year": "1994-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Can't Slow Down",
+    "album_link": "https://en.wikipedia.org/wiki/Can%27t_Slow_Down_(Lionel_Richie_album)",
+    "artist": "Lionel Richie",
+    "artist_link": "https://en.wikipedia.org/wiki/Lionel_Richie",
+    "genre": "Pop",
+    "sales": 20.0,
+    "year": "1983-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "HIStory: Past, Present and Future, Book I",
+    "album_link": "https://en.wikipedia.org/wiki/HIStory:_Past,_Present_and_Future,_Book_I",
+    "artist": "Michael Jackson",
+    "artist_link": "https://en.wikipedia.org/wiki/Michael_Jackson",
+    "genre": "Pop",
+    "sales": 20.0,
+    "year": "1995-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Off the Wall",
+    "album_link": "https://en.wikipedia.org/wiki/Off_the_Wall_(album)",
+    "artist": "Michael Jackson",
+    "artist_link": "https://en.wikipedia.org/wiki/Michael_Jackson",
+    "genre": "Soul",
+    "sales": 20.0,
+    "year": "1979-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Purple Rain",
+    "album_link": "https://en.wikipedia.org/wiki/Purple_Rain_(album)",
+    "artist": "Prince",
+    "artist_link": "https://en.wikipedia.org/wiki/Prince_(musician)",
+    "genre": "Pop",
+    "sales": 20.0,
+    "year": "1984-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "The Woman in Me",
+    "album_link": "https://en.wikipedia.org/wiki/The_Woman_in_Me_(Shania_Twain_album)",
+    "artist": "Shania Twain",
+    "artist_link": "https://en.wikipedia.org/wiki/Shania_Twain",
+    "genre": "Country",
+    "sales": 20.0,
+    "year": "1995-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Up!",
+    "album_link": "https://en.wikipedia.org/wiki/Up!_(album)",
+    "artist": "Shania Twain",
+    "artist_link": "",
+    "genre": "Country",
+    "sales": 20.0,
+    "year": "2002-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Breakfast in America",
+    "album_link": "https://en.wikipedia.org/wiki/Breakfast_in_America",
+    "artist": "Supertramp",
+    "artist_link": "https://en.wikipedia.org/wiki/Supertramp",
+    "genre": "art rock",
+    "sales": 20.0,
+    "year": "1979-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Private Dancer",
+    "album_link": "https://en.wikipedia.org/wiki/Private_Dancer",
+    "artist": "Tina Turner",
+    "artist_link": "https://en.wikipedia.org/wiki/Tina_Turner",
+    "genre": "Pop",
+    "sales": 20.0,
+    "year": "1984-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Tracy Chapman",
+    "album_link": "https://en.wikipedia.org/wiki/Tracy_Chapman_(album)",
+    "artist": "Tracy Chapman",
+    "artist_link": "https://en.wikipedia.org/wiki/Tracy_Chapman",
+    "genre": "Folk rock",
+    "sales": 20.0,
+    "year": "1988-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Confessions",
+    "album_link": "https://en.wikipedia.org/wiki/Confessions_(Usher_album)",
+    "artist": "Usher",
+    "artist_link": "https://en.wikipedia.org/wiki/Usher_(entertainer)",
+    "genre": "R&B",
+    "sales": 20.0,
+    "year": "2004-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Flashdance: Original Soundtrack from the Motion Picture",
+    "album_link": "https://en.wikipedia.org/wiki/Flashdance_(soundtrack)",
+    "artist": "Various artists",
+    "artist_link": "",
+    "genre": "Soundtrack",
+    "sales": 20.0,
+    "year": "1983-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Whitney",
+    "album_link": "https://en.wikipedia.org/wiki/Whitney_(album)",
+    "artist": "Whitney Houston",
+    "artist_link": "https://en.wikipedia.org/wiki/Whitney_Houston",
+    "genre": "Pop",
+    "sales": 20.0,
+    "year": "1987-01-01T00:00:00.000Z"
+  },
+  {
+    "album": "Laundry Service",
+    "album_link": "https://en.wikipedia.org/wiki/Laundry_Service",
+    "artist": "Shakira",
+    "artist_link": "https://en.wikipedia.org/wiki/Shakira",
+    "genre": "Pop",
+    "sales": 20.0,
+    "year": "2001-01-01T00:00:00.000Z"
+  }
+]
