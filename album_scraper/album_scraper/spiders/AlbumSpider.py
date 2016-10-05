@@ -65,7 +65,8 @@ class AlbumSpider(scrapy.Spider):
                             album_link = ''
                         item['album_link'] = album_link
                             
-                        item['year'] = row.xpath('td[3]/text()').extract()
+                        item['year'] = int(row.xpath('td[3]/text()')
+                                           .extract()[0])
 
                         # sometimes genre is linked, so we need to look for 
                         # links and extract link text if they are present,
@@ -80,14 +81,15 @@ class AlbumSpider(scrapy.Spider):
                             item['genre'] = \
                                 row.xpath('td[4]/a/text()').extract()[0]
 
-                        # for 30 - 40+ million sales, the sales number is contained
-                        # in a NavFrame, we need to check for that first, otherwise
-                        # just extract the text from the td
+                        # for 30 - 40+ million sales, the sales number is 
+                        # contained in a NavFrame, we need to check for that
+                        # first, otherwise just extract the text from the td
                         if (row.xpath('td[5]/text()').extract_first() is '\n'):
-                            item['sales'] = row.xpath('td[5]/div/div/text()')\
-                                .extract()[0]
+                            item['sales'] = \
+                                row.xpath('td[5]/div/div/text()').extract()[0]
                         else:      
-                            item['sales'] = row.xpath('td[5]/text()').extract()[0]
+                            item['sales'] = int(row.xpath('td[5]/text()')
+                                                .extract()[0])
                     yield item
 
     def get_first_genre(self, genres):
