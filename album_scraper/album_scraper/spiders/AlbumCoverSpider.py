@@ -16,8 +16,10 @@ class AlbumCoverSpider(scrapy.Spider):
     ]
     # we only want this pipeline run in conjunction
     # with this spider
-    ITEM_PIPELINES = {
-        'album_scraper.pipelines.AlbumCoverPipeline': 300,
+    custom_settings = {
+            'ITEM_PIPELINES' : {
+                'album_scraper.pipelines.AlbumCoverPipeline': 300,
+            }
     }
     
     def parse(self, response):
@@ -32,7 +34,8 @@ class AlbumCoverSpider(scrapy.Spider):
                     album_data = {}
                     # we need to start from second row -- first row is a header row
                     if not (row == rows[0]):
-                        album_data['album'] = row.xpath('td[2]/i/a/text()').extract()
+                        album_data['album'] = \
+                            row.xpath('td[2]/i/a/text()').extract()[0]
                         
                         # for the links we need to append the scraped
                         # href to the BASE_URL
