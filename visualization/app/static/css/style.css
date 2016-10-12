@@ -1,0 +1,94 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #fefefe;
+    width: 1000px;
+    margin: 0 auto;
+}
+a:link {
+    color:royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#album-viz {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+}
+
+#title {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 100;
+    top: 20px;
+}
+
+#info {
+    position: absolute;
+    font-size: 11px;
+    top: 18px;
+    width: 300px;
+    right: 0px;
+}
+
+#chart-holder {
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
+
+/*allows SVG contexts to expand to fit their containers*/
+#chart-holder svg {
+    height: 100%;
+    width: 100%;
+}
+
+#album-timeline, #album-list, #genre-bar, #sales-bar, #selected-album {
+    position: absolute;
+}
+
+#album-timeline {
+    top: 0;
+    height: 150px;
+    width: 100%;
+}
+
+#album-list {
+    top: 160px;
+    height: 340px;
+    width: 290px;
+    left: 700px;
+    padding-left: 10px;
+}
+
+#selected-album {
+    top: 510px;
+    left: 700px;
+    height: 240px;
+    width: 300px;
+}
+
+#genre-bar {
+    top: 160px;
+    height: 350px;
+    width: 700px;
+}
+
+#sales-bar {
+    top: 510px;
+    height: 240px;
+    width: 700px;
+}
+
+.axis {
+    font: 10px sans-serif;
+}
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}

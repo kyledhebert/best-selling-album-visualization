@@ -3,21 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <title>Best Selling Albums</title>
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
-    <h3>Request</h3>
-    <div id="query">
-        <pre></pre>
+    <div id="container">
+        <div id="title">Visualizing Best Selling Albums</div>
+        <div id="info">
+            This app was built as part of the MCTC Software Projects
+            course, and showcases data-visualization using Python and
+            JavaScript. The data was scraped from Wikipedia using the
+            <a href="https://en.wikipedia.org/wiki/List_of_best-selling_albums">
+            list of best selling albums</a> as a starting point.
+        </div>
+        <div id="album-viz">
+            <!-- Nav bar -->
+            <div id="nav">
+                <div id="genre-select">
+                    Genre
+                    <select name="" id=""></select>
+                </div>
+            </div>
+            <!-- Visualizations -->
+                <div id="chart-holder">
+                <!-- Timeline -->
+                <div id="album-timeline"></div>
+                <!-- List of Selected Albums -->
+                <div id="album-list">
+                    <h2>Selected albums</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="year">Year</th>
+                                <th id="genre">Genre</th>
+                                <th id="album">Album</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <!-- Album Cover -->
+                <div id="selected-album">
+                    <div id="cover-box"></div>
+                </div>
+                <!-- Genre Bar Chart -->
+                <div id="genre-bar"></div>
+                <!-- Sales Bar Chart -->
+                <div id="sales-bar"></div>
+            </div>
+        </div>
     </div>
-    <h3>Response</h3>
-    <div id="data">
-        <pre></pre>
-    </div>
+    
+
 
     <!-- Javascript -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-    <script src="https://d3js.org/d3.v4.min.js"></script>
-    <script src="static/js/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.js"></script>
+    <script src="static/lib/crossfilter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/queue-async/1.0.7/queue.min.js"></script>
+
+
+    <script src="static/js/albviz_core.js"></script>
+    <script src="static/js/albviz_sales_bar.js"></script>
+    <script src="static/js/albviz_main.js"></script>
 
 </body>
 </html>
