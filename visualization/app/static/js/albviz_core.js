@@ -46,7 +46,7 @@
     };
 
     albviz.getGenreData = function() {
-        // uses Crossfilter dimension to group key, value counts {key:Rock, value: 5}
+        // uses Crossfilter dimension to group genres into key value counts {key:Rock, value: 5}
         var genreGroups = albviz.genreDim.group().all();
         var data = genreGroups.sort(function(a, b) {
             return b.value - a.value; //descending order
@@ -58,8 +58,8 @@
     albviz.onDataChange = function() {
         var data = albviz.getGenreData();
         // albviz.updateGenreBarChart(data);
-        albviz.updateSalesBarChart(data);
-        // albviz.updateList(albviz.genreDim.top(Infinity));
+        // albviz.updateSalesBarChart(data);
+        albviz.updateList(albviz.genreDim.top(Infinity));
         // data = nestDataByYear(albviz.genreDim.top(Infinity));
         // albviz.updateTimeChart(data);
     };

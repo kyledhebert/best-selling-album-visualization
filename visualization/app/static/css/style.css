@@ -92,3 +92,56 @@ a:hover {
     stroke: #000;
     shape-rendering: crispEdges;
 }
+
+/* ALBUM LIST */
+#album-list {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#album-list table {
+    font-size: 10px;
+}
+
+#album-list table th#year {
+    width: 30px;
+}
+
+#album-list table th#artist {
+    width: 120px;
+}
+
+#album-list table th#album {
+    width:120px;
+}
+
+#album-list h2 {
+    font-size:14px;
+    margin:4px;
+    text-align:center;
+}
+
+#album-list tr:hover{
+    cursor: pointer;
+    background:lightblue;
+}
+
+#album-list tr {
+ opacity: 1;
+}
+
+/* SELECTED ALBUM */
+#selected_album {
+    font-size:11px;
+    overflow:auto;
+    overflow-x:hidden;
+    border-top:4px solid;
+}
+
+#selected-album #coverbox img{
+    margin:0;
+    width:300px;
+}
+
+
+

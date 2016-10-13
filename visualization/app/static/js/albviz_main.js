@@ -1,4 +1,3 @@
-// global $, _, crosfillter, d3 
 (function(albviz) {
     'use strict';
 
