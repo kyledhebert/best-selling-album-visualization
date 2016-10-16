@@ -8,7 +8,7 @@
     // creates a hexidecimal color based on category
     albviz.categoryFill = function(category) {
         var i = albviz.CATEGORIES.indexOf(category);
-        return df.hcl(i / albviz.CATEGORIES.length * 360, 60, 70);
+        return d3.hcl(i / albviz.CATEGORIES.length * 360, 60, 70);
     };
 
     albviz.data = {};
@@ -31,7 +31,11 @@
     };
 
     var nestDataByYear = function(entries) {
-        // ...
+        return nbviz.data.years = d3.nest()
+            .key(function(w) {
+                return w.year;
+            })
+            .entries(entries);
     };
 
     albviz.makeFilterAndDimensions = function(albumData) {
@@ -61,7 +65,7 @@
         // albviz.updateSalesBarChart(data);
         albviz.updateList(albviz.genreDim.top(Infinity));
         // data = nestDataByYear(albviz.genreDim.top(Infinity));
-        // albviz.updateTimeChart(data);
+        albviz.updateTimeChart(data);
     };
 
 }(window.albviz = window.albviz || {}));
