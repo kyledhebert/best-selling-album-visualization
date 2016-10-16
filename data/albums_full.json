@@ -11,7 +11,8 @@
     "album_art": "full/117b9206909a414cb34975b52ce256f74946a309.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Michael_Jackson_-_Thriller.png/220px-Michael_Jackson_-_Thriller.png"
-    ]
+    ],
+    "category": "30+"
   },
   {
     "album_x": "Back in Black",
@@ -25,7 +26,8 @@
     "album_art": "full/cbabf3f5af573928bb4e4711cb9c0f4062a513e3.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/9/92/ACDC_Back_in_Black.png/220px-ACDC_Back_in_Black.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "The Dark Side of the Moon",
@@ -39,7 +41,8 @@
     "album_art": "full/e07bb06a17c43e84134497fc6a2642146ba3f5a3.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/3/3b/Dark_Side_of_the_Moon.png/220px-Dark_Side_of_the_Moon.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "The Bodyguard",
@@ -53,7 +56,8 @@
     "album_art": "full/d51c168ee8027ef94f6b3a84ac6cf71b0959c142.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/TheBodyguardSoundtrack.jpg/220px-TheBodyguardSoundtrack.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Bat Out of Hell",
@@ -67,7 +71,8 @@
     "album_art": "full/463b1f4a1cd050eb23bf280ab853ccc9afa9d7ea.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Bat_out_of_Hell.jpg/220px-Bat_out_of_Hell.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Their Greatest Hits (1971–1975)",
@@ -81,7 +86,8 @@
     "album_art": "full/221ad75522c8542017c8b150f5dddf7619394631.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Eagles_-_Their_Greatest_Hits_%281971-1975%29.jpg/220px-Eagles_-_Their_Greatest_Hits_%281971-1975%29.jpg"
-    ]
+    ],
+    "category": "30+"
   },
   {
     "album_x": "Saturday Night Fever",
@@ -95,7 +101,8 @@
     "album_art": "full/894e4adaa606a63d868905437ba5a22210ad145f.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/0/0c/TheBeeGeesSaturdayNightFeveralbumcover.jpg/220px-TheBeeGeesSaturdayNightFeveralbumcover.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Rumours",
@@ -109,7 +116,8 @@
     "album_art": "full/16ebc880bba581b7a38d01868cc6e7fc0d901571.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/FMacRumours.PNG/220px-FMacRumours.PNG"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Come On Over",
@@ -123,7 +131,8 @@
     "album_art": "full/6d0dfb85031d57e09618550cb1100225c8dcd09f.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Shania_Twain_-_Come_on_Over.png/220px-Shania_Twain_-_Come_on_Over.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Led Zeppelin IV",
@@ -137,7 +146,8 @@
     "album_art": "full/f96da06e6aca0c9e8cd3e6c0e5981509e45e93ff.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/Led_Zeppelin_-_Led_Zeppelin_IV.jpg/220px-Led_Zeppelin_-_Led_Zeppelin_IV.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Bad",
@@ -151,7 +161,8 @@
     "album_art": "full/5bb9a922be072bd193011724ef186fa34d6b6544.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Michael_Jackson_-_Bad.png/220px-Michael_Jackson_-_Bad.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Jagged Little Pill",
@@ -165,7 +176,8 @@
     "album_art": "full/74cfd0bd979e9c169d0035658f2317273a9bab7a.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/Alanis_Morissette_-_Jagged_Little_Pill.jpg/220px-Alanis_Morissette_-_Jagged_Little_Pill.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Falling into You",
@@ -179,7 +191,8 @@
     "album_art": "full/424e795a72d03c15b4b6e93bda24af6cbb54bf65.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/FallingIntoYouAlbum.jpg/220px-FallingIntoYouAlbum.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Sgt. Pepper's Lonely Hearts Club Band",
@@ -193,7 +206,8 @@
     "album_art": "full/35def39860350c89a64e2464412bf5f54cced9a9.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/5/50/Sgt._Pepper%27s_Lonely_Hearts_Club_Band.jpg/220px-Sgt._Pepper%27s_Lonely_Hearts_Club_Band.jpg"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "Hotel California",
@@ -207,7 +221,8 @@
     "album_art": "full/9024f3872fb73ef30d60a6c2afb3865e647fa157.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/4/49/Hotelcalifornia.jpg/220px-Hotelcalifornia.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Music Box",
@@ -221,7 +236,8 @@
     "album_art": "full/d373c3bd9e301328499ce391feeff069c495e287.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Music_Box_Mariah_Carey.png/220px-Music_Box_Mariah_Carey.png"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "Dangerous",
@@ -235,7 +251,8 @@
     "album_art": "full/755f245b22f7f5a4df533cf4b94234488f3210a1.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/1/11/Michaeljacksondangerous.jpg/220px-Michaeljacksondangerous.jpg"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "Dirty Dancing",
@@ -249,7 +266,8 @@
     "album_art": "full/0f2825769baa53e7633c986aa7862496b8faf06b.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/Drtydancingsoundtrack.jpg/220px-Drtydancingsoundtrack.jpg"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "Let's Talk About Love",
@@ -263,7 +281,8 @@
     "album_art": "full/b8b18ff0af5ca2a05852ccf5d69ae09081a12f0d.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/4/48/Lets_talk_about_love.jpg/220px-Lets_talk_about_love.jpg"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "1",
@@ -277,7 +296,8 @@
     "album_art": "full/70d8aad8cdb73e644b90e495b9431cc4ad4c4ccd.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/The_Beatles_1_album_cover.jpg/220px-The_Beatles_1_album_cover.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "21",
@@ -291,7 +311,8 @@
     "album_art": "full/c46e63cffe73981cc426f7360f1dafcfd684513a.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/1/1b/Adele_-_21.png/220px-Adele_-_21.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Abbey Road",
@@ -305,7 +326,8 @@
     "album_art": "full/97b320be0d4c3a15410d0d2fcb3c30e9e27b5fd8.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Beatles_-_Abbey_Road.jpg/220px-Beatles_-_Abbey_Road.jpg"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "Born in the U.S.A.",
@@ -319,7 +341,8 @@
     "album_art": "full/e13a69434ff0c13b56bb4f0c46841db904061721.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/3/31/BruceBorn1984.JPG/220px-BruceBorn1984.JPG"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "Brothers in Arms",
@@ -333,7 +356,8 @@
     "album_art": "full/49a21d1a2b05c5e50e40ca256633d90f1443ea31.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/DS_Brothers_in_Arms.jpg/220px-DS_Brothers_in_Arms.jpg"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "Titanic: Music from the Motion Picture",
@@ -347,7 +371,8 @@
     "album_art": "full/8cde6fc7c68ee12584bb96310f4567a0eee99462.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/VA_-_Titanic_-_OST.JPG/220px-VA_-_Titanic_-_OST.JPG"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "The Immaculate Collection",
@@ -361,7 +386,8 @@
     "album_art": "full/aa342304a126cb7d8d91c378d26de8665b225159.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Madonna_-_The_Immaculate_Collection.png/220px-Madonna_-_The_Immaculate_Collection.png"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "Metallica",
@@ -375,7 +401,8 @@
     "album_art": "full/154c7b12372a24611fc9305c3153acb0caa7be5a.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/2/2c/Metallica_-_Metallica_cover.jpg/220px-Metallica_-_Metallica_cover.jpg"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "Nevermind",
@@ -389,7 +416,8 @@
     "album_art": "full/797c93f00320609070e2be422c51937c106ebb8d.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/NirvanaNevermindalbumcover.jpg/220px-NirvanaNevermindalbumcover.jpg"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "The Wall",
@@ -403,7 +431,8 @@
     "album_art": "full/3e0a96bd04afe49f7ce5a51418f1f9945c424288.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/1/13/PinkFloydWallCoverOriginalNoText.jpg/220px-PinkFloydWallCoverOriginalNoText.jpg"
-    ]
+    ],
+    "category": "10-19"
   },
   {
     "album_x": "Supernatural",
@@ -417,7 +446,8 @@
     "album_art": "full/c82898f99f96929d353513ac1e9bc158b9bc37ad.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/7/7f/Santana_-_Supernatural_-_CD_album_cover.jpg/220px-Santana_-_Supernatural_-_CD_album_cover.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Appetite for Destruction",
@@ -431,7 +461,8 @@
     "album_art": "full/97b57755b71620f22248c898dd4140f644b6d6a6.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/6/60/GunsnRosesAppetiteforDestructionalbumcover.jpg/220px-GunsnRosesAppetiteforDestructionalbumcover.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Gold: Greatest Hits",
@@ -445,7 +476,8 @@
     "album_art": "full/2fbf457a656238359189b9e593daf79f4ccb6115.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/ABBA_Gold_cover.png/220px-ABBA_Gold_cover.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Slippery When Wet",
@@ -459,7 +491,8 @@
     "album_art": "full/c9bccc2a1ad6d6ba1381bf0424f59a198fed0768.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/Bon_jovi_slippery_when_wet.jpg/220px-Bon_jovi_slippery_when_wet.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Spice",
@@ -473,7 +506,8 @@
     "album_art": "full/5d5f3ab5ef46abee2525064589da3b65b5c84ad1.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/e/e2/Spicegirls-spice.jpg/220px-Spicegirls-spice.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Grease: The Original Soundtrack from the Motion Picture",
@@ -487,7 +521,8 @@
     "album_art": "full/cb70499d63bf6882566587c0a9e0c3d115e8f5fc.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/2/29/GreaseOST.jpg/220px-GreaseOST.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "...Baby One More Time",
@@ -501,7 +536,8 @@
     "album_art": "full/e846eee561893dba721cf2fed175c1eaf518a003.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/..._Baby_One_More_Time_%28album%29.png/220px-..._Baby_One_More_Time_%28album%29.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Hybrid Theory",
@@ -515,7 +551,8 @@
     "album_art": "full/b53328cdc050bdc621dd8e7fced94a2159396263.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Linkin_park_hybrid_theory.jpg/220px-Linkin_park_hybrid_theory.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Legend: The Best of Bob Marley & The Wailers",
@@ -529,7 +566,8 @@
     "album_art": "full/f6fbd86d48c39cabbe172d4be688b9c3bdbf584b.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/BobMarley-Legend.jpg/220px-BobMarley-Legend.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Tapestry",
@@ -543,7 +581,8 @@
     "album_art": "full/e12e0fa0fbce5fb717991fbb7e95ffcf8a5cd265.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/5/52/Carole_King_-_Tapestry.jpg/220px-Carole_King_-_Tapestry.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Like a Virgin",
@@ -557,7 +596,8 @@
     "album_art": "full/9f3d4d0c050f5ae23f7efe235a762a872ec40c15.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/LikeAVirgin1984.png/220px-LikeAVirgin1984.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "True Blue",
@@ -571,7 +611,8 @@
     "album_art": "full/54e827c57931c6c956e7fad87b1ced401c185535.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/9/97/True_Blue_Madonna.png/220px-True_Blue_Madonna.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Daydream",
@@ -585,7 +626,8 @@
     "album_art": "full/7938ea3263ea58d888d10a0a93019771beec4076.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/2/26/Daydream_mariah_carey.jpg/220px-Daydream_mariah_carey.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Come Away with Me",
@@ -599,7 +641,8 @@
     "album_art": "full/c0dfd0f96e23a4a85feeae839b01a43ce0063e5c.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/0/00/Norah_Jones_-_Come_Away_With_Me.jpg/220px-Norah_Jones_-_Come_Away_With_Me.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "No Jacket Required",
@@ -613,7 +656,8 @@
     "album_art": "full/a3af9a429b1d0e08bb29287f32639dc9690b1a5a.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Phil_Collins_-_No_Jacket_Required.png/220px-Phil_Collins_-_No_Jacket_Required.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Greatest Hits",
@@ -627,7 +671,8 @@
     "album_art": "full/d1e56a6784110b65016eeb4f0cf777dd3887e70a.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Queen_Greatest_Hits.png/220px-Queen_Greatest_Hits.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Bridge over Troubled Water",
@@ -641,7 +686,8 @@
     "album_art": "full/419b6fbd85895c25dddb68dfb660cc2d3b97c3ad.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Simon_and_Garfunkel%2C_Bridge_over_Troubled_Water_%281970%29.png/220px-Simon_and_Garfunkel%2C_Bridge_over_Troubled_Water_%281970%29.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "The Joshua Tree",
@@ -655,7 +701,8 @@
     "album_art": "full/4feefc5226b7fd7950b6b4d5720dcf62112a6f66.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/The_Joshua_Tree.png/220px-The_Joshua_Tree.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Whitney Houston",
@@ -669,7 +716,8 @@
     "album_art": "full/e690d4179b88f289f1977cf36d046c68aa946318.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Whitney_Houston_-_Whitney_Houston_%28album%29.jpg/220px-Whitney_Houston_-_Whitney_Houston_%28album%29.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Backstreet's Back",
@@ -683,7 +731,8 @@
     "album_art": "full/c16a5e066d68943add4209ad4d9489cbe4187f7f.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/e/eb/Backstreet%27s_Back_cover.jpg/220px-Backstreet%27s_Back_cover.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Millennium",
@@ -697,7 +746,8 @@
     "album_art": "full/757b7c4acf0754fd37da131c220bff2cdcb8ad98.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/f/f5/Millennium_cover.jpg/220px-Millennium_cover.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Happy Nation",
@@ -711,7 +761,8 @@
     "album_art": "full/5ea49461efefe4ae0fb7ce9eb67d9f2bdaa0b96d.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Happy_nation.jpg/220px-Happy_nation.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "CrazySexyCool",
@@ -725,7 +776,8 @@
     "album_art": "full/ffde9f0d3cab632b96cf09b40ffb95fb2c37bd66.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/f/fa/TLCCrazySexyCool.jpg/220px-TLCCrazySexyCool.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "She's So Unusual",
@@ -739,7 +791,8 @@
     "album_art": "full/c82ef1b5dab8c901fc4a6a1bf08ab4b2500d9d53.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/0/09/ShesSoUnusual1984.PNG/220px-ShesSoUnusual1984.PNG"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "(What's the Story) Morning Glory?",
@@ -753,7 +806,8 @@
     "album_art": "full/7e3183e4f1f83516dd8c512c5f70c8c29efd88c4.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Oasis_-_%28What%27s_The_Story%29_Morning_Glory_album_cover.jpg/220px-Oasis_-_%28What%27s_The_Story%29_Morning_Glory_album_cover.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Cross Road",
@@ -767,7 +821,8 @@
     "album_art": "full/e5764394c80ec6f8cabe914a76b24e1aae6de20d.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/d/de/BonJoviCrossRoad.jpg/220px-BonJoviCrossRoad.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "The Marshall Mathers LP",
@@ -781,7 +836,8 @@
     "album_art": "full/d0abdd7f35e1594a33f52dd1fe48719c00088bca.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/The_Marshall_Mathers_LP.jpg/220px-The_Marshall_Mathers_LP.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "25",
@@ -795,7 +851,8 @@
     "album_art": "full/edb22439c7b4757866ae86d25690023da5d1dadf.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Adele_-_25_%28Official_Album_Cover%29.png/220px-Adele_-_25_%28Official_Album_Cover%29.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Boston",
@@ -809,7 +866,8 @@
     "album_art": "full/75776ee346c51eb484289fb5bb1b2d376a9681a4.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/BostonBoston.jpg/220px-BostonBoston.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Oops!... I Did It Again",
@@ -823,7 +881,8 @@
     "album_art": "full/c87b8f1e0278c6d675df55d62a9ddf53852714e8.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/2/24/Britney_Spears_-_Oops%21..._I_Did_It_Again.png/220px-Britney_Spears_-_Oops%21..._I_Did_It_Again.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Unplugged",
@@ -837,7 +896,8 @@
     "album_art": "full/ad8b98b0a892f8c17ed840a49186128de07191a0.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Eric_Clapton_Unplugged.jpg/220px-Eric_Clapton_Unplugged.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Hysteria",
@@ -851,7 +911,8 @@
     "album_art": "full/70029a2ec4457abd99e5890cae513937d3b7c698.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/4/40/Def_Leppard_-_Hysteria_%28vinyl_version%29.jpg/220px-Def_Leppard_-_Hysteria_%28vinyl_version%29.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Faith",
@@ -865,7 +926,8 @@
     "album_art": "full/ab71a4951d264207f6dfc884b484487f6ad92384.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/3/3a/GeorgeMichaelFaithAlbumcover.jpg/220px-GeorgeMichaelFaithAlbumcover.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Dookie",
@@ -879,7 +941,8 @@
     "album_art": "full/69e1b583e43ef99a910de72cb8b9231b8ce6cb3c.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Green_Day_-_Dookie_cover.jpg/220px-Green_Day_-_Dookie_cover.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Can't Slow Down",
@@ -893,7 +956,8 @@
     "album_art": "full/d749f0d1a25de8df90cfce3bcd39d297cf0d141b.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/4/46/Richieslow.jpg/220px-Richieslow.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "HIStory: Past, Present and Future, Book I",
@@ -907,7 +971,8 @@
     "album_art": "full/a40bce7dfe1f313b22347178eb4bd68e60795000.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/3/35/MJ-HIStory.jpg/220px-MJ-HIStory.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Off the Wall",
@@ -921,7 +986,8 @@
     "album_art": "full/939b1484ddfa05fb84a690ca9663362160de112a.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Off_the_wall.jpg/220px-Off_the_wall.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Purple Rain",
@@ -935,7 +1001,8 @@
     "album_art": "full/812d62cab6aefaef31795be54d0de56a71cae8cf.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Princepurplerain.jpg/220px-Princepurplerain.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "The Woman in Me",
@@ -949,7 +1016,8 @@
     "album_art": "full/9c5686cd76cd686afdfe1d71b4b2278fd8570bfe.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/Shania_Twain_-_The_Woman_in_Me.png/220px-Shania_Twain_-_The_Woman_in_Me.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Up!",
@@ -963,7 +1031,8 @@
     "album_art": "full/3d0c6fcd642f99a925c5c24b36b6b2d0f8f7f1b6.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Shania_Twain_-_Up%21.png/220px-Shania_Twain_-_Up%21.png"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Breakfast in America",
@@ -977,7 +1046,8 @@
     "album_art": "full/6f8ca9dc229bc22a22d7f2d9e6d45016dd7dd1ed.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/c/c4/Supertramp_-_Breakfast_in_America.jpg/220px-Supertramp_-_Breakfast_in_America.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Private Dancer",
@@ -991,7 +1061,8 @@
     "album_art": "full/05903c27d5e8b569a25f81bf3453caa26a37bdc4.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/4/42/Tina_Turner_Private_Dancer_US_CD_cover_art_1984_original.jpg/220px-Tina_Turner_Private_Dancer_US_CD_cover_art_1984_original.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Tracy Chapman",
@@ -1005,7 +1076,8 @@
     "album_art": "full/b19e2c94ca3e060865bfbc2c1f8e0af7cc73dd0f.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/3/3d/Tracy_Chapman_-_Tracy_Chapman.jpg/220px-Tracy_Chapman_-_Tracy_Chapman.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Confessions",
@@ -1019,7 +1091,8 @@
     "album_art": "full/f8bce904dc06df6870776a9e4d10f8c0829213c2.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/7/74/Usher_-_Confessions_album_cover.jpg/220px-Usher_-_Confessions_album_cover.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Flashdance: Original Soundtrack from the Motion Picture",
@@ -1033,7 +1106,8 @@
     "album_art": "full/2f2e27504495ba72d7c1cb0c27214282ee71effc.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Flashdance.soundtrack.jpg/220px-Flashdance.soundtrack.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Whitney",
@@ -1047,7 +1121,8 @@
     "album_art": "full/ef0c4f16ccf6ce2a360d52c7e8d18a95dc3a16c7.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/Whitney_Houston_-_Whitney_%28album%29.jpg/220px-Whitney_Houston_-_Whitney_%28album%29.jpg"
-    ]
+    ],
+    "category": "20-29"
   },
   {
     "album_x": "Laundry Service",
@@ -1061,6 +1136,7 @@
     "album_art": "full/3bd1cf1b815a4537fca766a5ee18c2ad41b77a44.jpg",
     "image_urls": [
       "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Laundry_Service_cover.png/220px-Laundry_Service_cover.png"
-    ]
+    ],
+    "category": "20-29"
   }
 ]
