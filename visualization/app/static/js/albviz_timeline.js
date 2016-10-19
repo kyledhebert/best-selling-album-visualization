@@ -22,7 +22,7 @@
 
     var yScale = d3.scale.ordinal()
         .rangeRoundPoints([height,0])
-        .domain(d3.range(10));
+        .domain(d3.range(5));
 
     // Chart X-Axis
     var xAxis = d3.svg.axis()
@@ -83,7 +83,7 @@
                 return d.key;
             })
             .attr('transform', function(year) {
-                return 'translate(' + xScale(+year.key) + ',0)';
+                return 'translate(' + xScale(year.key) + ',0)';
             });
 
         var albums = years.selectAll('.album')
