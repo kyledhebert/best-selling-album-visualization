@@ -13,6 +13,10 @@ a:hover {
     text-decoration: underline;
 }
 
+#container {
+    position: relative;
+}
+
 #album-viz {
     position: absolute;
     top: 90px;
@@ -34,6 +38,10 @@ a:hover {
     right: 0px;
 }
 
+#album-menu {
+    font-size: 14px;
+}
+
 #chart-holder {
     height: 750px;
     width: 100%;
@@ -46,7 +54,7 @@ a:hover {
     width: 100%;
 }
 
-#album-timeline, #album-list, #genre-bar, #sales-bar, #selected-album {
+#genre-bar, #selected-album,  #sales-bar, #album-timeline, #album-list {
     position: absolute;
 }
 
@@ -55,6 +63,19 @@ a:hover {
     height: 150px;
     width: 100%;
 }
+
+#genre-bar {
+    top: 160px;
+    height: 350px;
+    width: 700px;
+}
+
+#sales-bar {
+    top: 510px;
+    height: 240px;
+    width: 700px;
+}
+
 
 #album-list {
     top: 160px;
@@ -71,16 +92,18 @@ a:hover {
     width: 300px;
 }
 
-#genre-bar {
-    top: 160px;
-    height: 350px;
-    width: 700px;
+
+/* BAR CHARTS*/
+.bar.active {
+    fill: goldenrod;
 }
 
-#sales-bar {
-    top: 510px;
-    height: 240px;
-    width: 700px;
+.bar {
+    fill: steelblue;
+}
+
+.bar:hover {
+    fill: brown;
 }
 
 .axis {
@@ -91,6 +114,33 @@ a:hover {
     fill: none;
     stroke: #000;
     shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+#y-axis-label {
+    font-size: 11px;
+}
+
+/* Timeline */
+.labels text {
+    font-size: 11px;
+}
+
+#album-timeline circle {
+    stroke-width: 0;
+    stroke: black;
+}
+
+/* Menu Bar */
+#album-menu div {
+    display:inline-block;
+}
+
+#album-menu option {
+    font-size: 12px;
 }
 
 /* ALBUM LIST */
