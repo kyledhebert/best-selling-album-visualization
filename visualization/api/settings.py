@@ -9,7 +9,8 @@ DOMAIN = {
             'genre': {'type': 'string'},
             'sales': {'type': 'integer'},
             'year': {'type': 'integer'},
-            'album_art': {'type': 'string'}
+            'album_art': {'type': 'string'},
+            'category': {'type': 'string'}
         },
         'url': 'albums'
     }
