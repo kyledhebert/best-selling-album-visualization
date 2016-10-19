@@ -1,8 +1,8 @@
 (function(albviz) {
     'use strict';
 
-    albviz.ALL_SALES = 'All Sales Categories';
-    albviz.CATEGORIES = ["40+", "30-39", "20-29"];
+    albviz.ALL_CATEGORIES = 'All Categories';
+    albviz.CATEGORIES = ["30+", "20-29", "10-19"];
     albviz.TRANS_DURATTION = 2000; //time of transition animations
 
     // creates a hexidecimal color based on category
@@ -31,7 +31,7 @@
     };
 
     var nestDataByYear = function(entries) {
-        return nbviz.data.years = d3.nest()
+        return albviz.data.years = d3.nest()
             .key(function(w) {
                 return w.year;
             })
@@ -40,31 +40,75 @@
 
     albviz.makeFilterAndDimensions = function(albumData) {
         albviz.filter = crossfilter(albumData);
+        // creates a genre dimension
         albviz.genreDim = albviz.filter.dimension(function(o){
             return o.genre;
         });
-    };
 
-    albviz.filterByGenres = function(genres) {
-        // ...
-    };
-
-    albviz.getGenreData = function() {
-        // uses Crossfilter dimension to group genres into key value counts {key:Rock, value: 5}
-        var genreGroups = albviz.genreDim.group().all();
-        var data = genreGroups.sort(function(a, b) {
-            return b.value - a.value; //descending order
+        // creates a category dimension
+        albviz.categoryDim = albviz.filter.dimension(function(o) {
+            return o.category;
         });
+    };
+
+    albviz.filterByGenre = function(genres) {
+        // resets the filter if the genres array is empty
+        // i.e. the user has chosen All Genres
+        if (!genres.length) {
+            albviz.genreDim.filter();
+        }
+        else {
+            albviz.genreDim.filter(function(genre) {
+                // returns true if a genre is in the genres list
+                return genres.indexOf('genre') > -1;
+            });
+        }
+
+        // keeps a record of any single selected genre
+        if (genres.length === 1) {
+            albviz.activeGenre = genres[0];
+        }
+        else {
+            albviz.activeGenre = null;
+        }
+    };
+
+    albviz.filterByCategory = function(cat) {
+        albviz.activeCategory = cat;
+
+        if (cat === albviz.ALL_SALES) {
+            albviz.categoryDim.filter();
+        }
+        else {
+            albviz.categoryDim.filter(cat);
+        }
+    };
+
+    // uses Crossfilter dimension to group genres into key value counts {key:Rock, value: 5}
+    albviz.getGenreData = function() {
+        var genreGroups = albviz.genreDim.group().all();
+
+        var data = genreGroups.map(function(c) {
+            var value = c.value;
+            return {
+                key: c.key,
+                value: value
+            };
+        })
+            .sort(function(a,b) {
+                // descending order
+                return b.value - a.value;
+            });
 
         return data;
     };
 
     albviz.onDataChange = function() {
         var data = albviz.getGenreData();
-        // albviz.updateGenreBarChart(data);
+        albviz.updateGenreBarChart(data);
         // albviz.updateSalesBarChart(data);
         albviz.updateList(albviz.genreDim.top(Infinity));
-        // data = nestDataByYear(albviz.genreDim.top(Infinity));
+        data = nestDataByYear(albviz.genreDim.top(Infinity));
         albviz.updateTimeChart(data);
     };
 
