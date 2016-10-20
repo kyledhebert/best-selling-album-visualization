@@ -39,6 +39,7 @@
     };
 
     albviz.makeFilterAndDimensions = function(albumData) {
+        // adds the filter
         albviz.filter = crossfilter(albumData);
         // creates a genre dimension
         albviz.genreDim = albviz.filter.dimension(function(o){
@@ -60,7 +61,7 @@
         else {
             albviz.genreDim.filter(function(genre) {
                 // returns true if a genre is in the genres list
-                return genres.indexOf('genre') > -1;
+                return genres.indexOf(genre) > -1;
             });
         }
 
@@ -108,8 +109,8 @@
         albviz.updateGenreBarChart(data);
         // albviz.updateSalesBarChart(data);
         albviz.updateList(albviz.genreDim.top(Infinity));
-        data = nestDataByYear(albviz.genreDim.top(Infinity));
-        albviz.updateTimeChart(data);
+        // data = nestDataByYear(albviz.genreDim.top(Infinity));
+        // albviz.updateTimeChart(data);
     };
 
 }(window.albviz = window.albviz || {}));
