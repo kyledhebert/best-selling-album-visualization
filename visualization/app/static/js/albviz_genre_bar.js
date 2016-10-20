@@ -9,16 +9,6 @@
     height = boundingRectangle.height - margin.top - margin.bottom;
     var xPaddingLeft = 20;
 
-    // append the SVG to the chart container
-    var svg = chartContainer.append("svg")
-        .attr("width", width + margin.left + margin.right)
-        .attr("height", height + margin.top + margin.bottom)
-        // The <g> SVG element is a container used to group other SVG elements.
-        .append("g")
-        // The SVG Transform Attribute applies a list of transformations to an element and it's children.
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-
     // Chart Scales
     var xScale = d3.scale.ordinal()
         .rangeBands([xPaddingLeft, width], 0.1);
@@ -28,7 +18,8 @@
 
     // Chart Axes
     var xAxis = d3.svg.axis()
-    .orient("bottom");
+        .scale(xScale)
+        .orient("bottom");
 
     var yAxis = d3.svg.axis()
         .scale(yScale)
@@ -40,7 +31,7 @@
 
 
     // append the SVG to the chart container
-    svg = chartContainer.append("svg")
+    var svg = chartContainer.append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         // The <g> SVG element is a container used to group other SVG elements.
@@ -68,12 +59,13 @@
         data = data.filter(function(d) {
             return d.value > 0;
         });
+        console.log(data);
 
         xScale.domain(data.map(function(d) { return d.key; }));
         yScale.domain([0, d3.max(data, function(d) { return +d.value;})]);
 
         svg.select('.x.axis')
-            .transition().duration(albviz.TRANS_DURATION)
+            // .transition().duration(albviz.TRANS_DURATION)
             .call(xAxis)
             .selectAll("text")
             .style("text-anchor", "end")
@@ -106,7 +98,7 @@
             })
             .transition().duration(albviz.TRANS_DURATION)
             .attr("x", function(d) {
-                return xScale(d.key); 
+                return xScale(d.value); 
             })
             .attr("width", xScale.rangeBand())
             .attr("y", function(d) {
