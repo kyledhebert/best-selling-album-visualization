@@ -52,7 +52,7 @@
         .enter().append('g')
         .attr('transform', function(d,i) {
             // creates a group for each category spaced 10 pixels apart
-            return 'translate(0' + i * 10 + ')';
+            return 'translate(0,' + i * 20 + ')';
         });
 
     categoryLabels.append('circle')
@@ -70,6 +70,7 @@
 
     // Chart update pattern
     albviz.updateTimeChart = function(data) {
+        console.log(data);
         var years = svg.selectAll('.year')
             .data(data, function(d) {
                 // joins the year data to its column by year key
@@ -79,12 +80,12 @@
 
         years.enter().append('g')
             .classed('year', true)
-            .attr('name', function(d) {
-                return d.key;
-            })
-            .attr('transform', function(year) {
-                return 'translate(' + xScale(year.key) + ',0)';
+            .attr('name', function(d) { return d.key;})
+            .attr("transform", function(year) {
+                return "translate(" + xScale(+year.key) + ",0)";
             });
+    
+        years.exit().remove();
 
         var albums = years.selectAll('.album')
             .data(function(d) {
