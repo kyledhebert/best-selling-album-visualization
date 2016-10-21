@@ -3,7 +3,7 @@
 
     albviz.ALL_CATEGORIES = 'All Categories';
     albviz.CATEGORIES = ["30+", "20-29", "10-19"];
-    albviz.TRANS_DURATTION = 2000; //time of transition animations
+    albviz.TRANS_DURATION = 2000; //time of transition animations
 
     // creates a hexidecimal color based on category
     albviz.categoryFill = function(category) {
@@ -77,7 +77,7 @@
     albviz.filterByCategory = function(cat) {
         albviz.activeCategory = cat;
 
-        if (cat === albviz.ALL_SALES) {
+        if (cat === albviz.ALL_CATEGORIES) {
             albviz.categoryDim.filter();
         }
         else {
@@ -104,13 +104,16 @@
         return data;
     };
 
-    albviz.onDataChange = function() {
+    albviz.initializeStaticCharts = function() {
         var data = albviz.getGenreData();
         albviz.updateGenreBarChart(data);
         // albviz.updateSalesBarChart(data);
+    };
+
+    albviz.onDataChange = function() {
         albviz.updateList(albviz.genreDim.top(Infinity));
-        // data = nestDataByYear(albviz.genreDim.top(Infinity));
-        // albviz.updateTimeChart(data);
+        var data = nestDataByYear(albviz.genreDim.top(Infinity));
+        albviz.updateTimeChart(data);
     };
 
 }(window.albviz = window.albviz || {}));

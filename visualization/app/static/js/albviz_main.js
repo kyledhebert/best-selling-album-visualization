@@ -6,8 +6,9 @@
     JSON.stringify({"album_art":0});
 
     var q = queue()
-            .defer(albviz.getDataFromAPI, query_albums)
-            .await(ready);
+            .defer(albviz.getDataFromAPI, query_albums);
+    
+    q.await(ready);
 
     function ready(error, albumData) {
         if(error) {
@@ -15,10 +16,8 @@
         }
 
         albviz.makeFilterAndDimensions(albumData);
-        //  albviz.initializeMenu();
+        albviz.initializeStaticCharts();
         albviz.onDataChange();
         console.log("Data retrieved");
     }  
-
-
 }(window.albviz = window.albviz || {}));

@@ -22,7 +22,7 @@
 
     var yScale = d3.scale.ordinal()
         .rangeRoundPoints([height,0])
-        .domain(d3.range(5));
+        .domain(d3.range(7));
 
     // Chart X-Axis
     var xAxis = d3.svg.axis()
@@ -30,7 +30,7 @@
         .orient('bottom')
         .tickValues(xScale.domain().filter(function(d, i) {
             // return true for years ending in zero
-            // places a tick lable at the start of each decade
+            // places a tick label at the start of each decade
             return !(d%10);
         }));
 
@@ -51,7 +51,7 @@
         .selectAll('label').data(albviz.CATEGORIES)
         .enter().append('g')
         .attr('transform', function(d,i) {
-            // creates a group for each category spaced 10 pixels apart
+            // creates a group for each category spaced 20 pixels apart
             return 'translate(0,' + i * 20 + ')';
         });
 
@@ -82,7 +82,11 @@
             .classed('year', true)
             .attr('name', function(d) { return d.key;})
             .attr("transform", function(year) {
-                return "translate(" + xScale(+year.key) + ",0)";
+                // some years were returning undefined
+                // TODO investigate why
+                if (xScale(+year.key) !== undefined ) {
+                    return "translate(" + xScale(+year.key) + ",0)";
+                }
             });
     
         years.exit().remove();
