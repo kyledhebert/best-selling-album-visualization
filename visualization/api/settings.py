@@ -1,5 +1,10 @@
-URL_PREFIX = 'api'
+import os
+
+
+MONGO_URI = os.environ.get('MONGODB_URI', 'mongodb://localhost:27017/album_sales')
 MONGO_DBNAME = 'album_sales'
+
+URL_PREFIX = 'api'
 DOMAIN = {
     'albums_full': {
         'item_title': 'albums',
