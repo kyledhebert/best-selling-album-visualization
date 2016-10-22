@@ -30,8 +30,8 @@
         .orient('bottom')
         .tickValues(xScale.domain().filter(function(d, i) {
             // return true for years ending in zero
-            // places a tick label at the start of each decade
-            return !(d%10);
+            // places a tick label every five years
+            return !(d%5);
         }));
 
     svg.append('g')
