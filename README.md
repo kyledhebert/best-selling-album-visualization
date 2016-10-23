@@ -4,7 +4,7 @@ The code in this repo demonstrates the use of [D3.js][d3js], and [Flask][flask] 
 ## Installing Dependencies
 The first step in running the app is installing the dependencies, ideally in a virtual environment.
 
-Once you have activated your virtual environment you can use `requirements.txt` to install the dependencies:
+Once you have activated your virtual environment you can use the `requirements.txt` file in the project root to install the dependencies:
 
 `$ pip install -r requirements.txt`
 
@@ -38,7 +38,7 @@ Now that the API server is running you may start the Flask application server fr
 If you visit `http://localhost:8080` in your browser you should see the visualization running.
 
 ##The Data
-The data used for this project was scraped from the Wikipedia entry using a [Scrapy][scrapy] spider. You can view the spider code in the `album_scraper` directory.
+The data used for this project was scraped from the Wikipedia entry using a [Scrapy][scrapy] spider. You can view the spider code in the `album_scraper` directory. In order to run the scraping code, you will need to install the additional dependencies listed in `album_scraper/requirements.txt`
 
 The `data` directory includes the raw data that was scraped using the spider. I used the [Pandas][pandas] library to clean up the data before importing it into the database. The files in the `data` directory show the various stages the data went through before import. 
 
