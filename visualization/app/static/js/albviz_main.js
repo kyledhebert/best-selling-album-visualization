@@ -15,9 +15,9 @@
             return console.warn(error);
         }
 
+        // set up the Crosfillter filter and dimensions
         albviz.makeFilterAndDimensions(albumData);
-        albviz.initializeStaticCharts();
+        // update the app based on menu selection
         albviz.onDataChange();
-        console.log("Data retrieved");
     }  
 }(window.albviz = window.albviz || {}));

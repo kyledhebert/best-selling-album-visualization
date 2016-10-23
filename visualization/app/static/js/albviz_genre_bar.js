@@ -59,7 +59,6 @@
         data = data.filter(function(d) {
             return d.value > 0;
         });
-        console.log(data);
 
         xScale.domain(data.map(function(d) { return d.key; }));
         yScale.domain([0, d3.max(data, function(d) { return +d.value;})]);
@@ -98,7 +97,7 @@
             })
             .transition().duration(albviz.TRANS_DURATION)
             .attr("x", function(d) {
-                return xScale(d.value); 
+                return xScale(d.key); 
             })
             .attr("width", xScale.rangeBand())
             .attr("y", function(d) {

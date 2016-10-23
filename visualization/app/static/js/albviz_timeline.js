@@ -70,7 +70,6 @@
 
     // Chart update pattern
     albviz.updateTimeChart = function(data) {
-        console.log(data);
         var years = svg.selectAll('.year')
             .data(data, function(d) {
                 // joins the year data to its column by year key

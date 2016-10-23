@@ -104,15 +104,11 @@
         return data;
     };
 
-    albviz.initializeStaticCharts = function() {
+    albviz.onDataChange = function() {
         var data = albviz.getGenreData();
         albviz.updateGenreBarChart(data);
-        // albviz.updateSalesBarChart(data);
-    };
-
-    albviz.onDataChange = function() {
         albviz.updateList(albviz.genreDim.top(Infinity));
-        var data = nestDataByYear(albviz.genreDim.top(Infinity));
+        data = nestDataByYear(albviz.genreDim.top(Infinity));
         albviz.updateTimeChart(data);
     };
 
